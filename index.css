@@ -1,5 +1,6 @@
 :root {
-    --border-rad-lg: 15px;
+    --border-rad-lg: 0px;
+    --border-rad-lm: 15px;
     --light-text: #fefefe;
 }
 
@@ -20,15 +21,15 @@ main {
     background-repeat: no-repeat;
     height: 100vh;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: right;
+    justify-content: right;
 }
 
 /* chatbot elements */
 
 .chatbot-container {
     background-color: #171f26;
-    width: 560px;
+    width: 600px;
     min-height: 750px;
     border-radius: var(--border-rad-lg);
     padding: 1em;  
@@ -49,7 +50,7 @@ main {
 }
 
 .chatbot-conversation-container {
-    height: 700px;
+    height: 730px;
     overflow-y: scroll;
     margin: 1em 0;
 }
@@ -68,8 +69,8 @@ main {
     max-width: 240px; 
     color: var(--light-text);
     min-width: 90%;
-    border-radius: var(--border-rad-lg); 
-    font-size: 1.07em;
+    border-radius: var(--border-rad-lm); 
+    font-size: 2.07em;
 }
 
 .speech:first-child {
