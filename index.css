@@ -120,9 +120,9 @@ button {
 
 /* text */
 .sub-heading {
-    color: #999999;
+    color: #FEFEFE;
     font-family: 'Roboto', sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     text-transform: uppercase;
     margin: 0;
 }
