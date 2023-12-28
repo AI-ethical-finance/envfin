@@ -14,7 +14,7 @@ html, body {
 }
 
 main {    
-    background-color: slategrey;
+    background-color: white;
     background-image: url('images/scrimba-bg.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
