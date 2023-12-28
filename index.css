@@ -20,8 +20,8 @@ main {
     background-repeat: no-repeat;
     height: 100vh;
     display: flex;
-    align-items: right;
-    justify-content: right;
+    align-items: center;
+    justify-content: center;
 }
 
 /* chatbot elements */
@@ -121,8 +121,8 @@ button {
 /* text */
 .sub-heading {
     color: #FEFEFE;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 18px;
-    text-transform: uppercase;
+    text-transform: lowercase;
     margin: 0;
 }
