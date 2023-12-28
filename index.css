@@ -20,7 +20,7 @@ main {
     background-repeat: no-repeat;
     height: 100vh;
     display: flex;
-    align-items: center;
+    align-items: right;
     justify-content: center;
 }
 
@@ -28,8 +28,8 @@ main {
 
 .chatbot-container {
     background-color: #171f26;
-    width: 360px;
-    min-height: 380px;
+    width: 560px;
+    min-height: 750px;
     border-radius: var(--border-rad-lg);
     padding: 1em;  
 }
@@ -45,7 +45,7 @@ main {
 }
 
 .logo {
-    width: 160px;
+    width: 120px;
 }
 
 .chatbot-conversation-container {
