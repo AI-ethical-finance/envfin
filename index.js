@@ -11,7 +11,7 @@ document.addEventListener('submit', (e) => {
     progressConversation()
 })
 
-const openAIApiKey = process.env.OPENAI_API_KEY
+const openAIApiKey = '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'
 const llm = new ChatOpenAI({ openAIApiKey })
 
 const standaloneQuestionTemplate = `Given some conversation history (if any) and a question, convert the question to a standalone question. 
