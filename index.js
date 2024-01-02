@@ -1,9 +1,9 @@
-import { ChatOpenAI } from 'langchain/chat_models/openai'
-import { PromptTemplate } from 'langchain/prompts'
-import { StringOutputParser } from 'langchain/schema/output_parser'
+import { ChatOpenAI } from '@langchain/chat_models/openai'
+import { PromptTemplate } from '@langchain/prompts'
+import { StringOutputParser } from '@langchain/schema/output_parser'
 import { retriever } from '/utils/retriever'
 import { combineDocuments } from '/utils/combineDocuments'
-import { RunnablePassthrough, RunnableSequence } from "langchain/schema/runnable"
+import { RunnablePassthrough, RunnableSequence } from "@langchain/schema/runnable"
 import { formatConvHistory } from '/utils/formatConvHistory'
 
 document.addEventListener('submit', (e) => {
